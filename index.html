@@ -6,21 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>PACKAGING TOOL</title>
 
-	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
 
     <div class="top-main">
         <header class="menu-block">
-            <h1>Packaging Tool</h1>
+            <h1>Packaging Weight Estimator</h1>
         </header>
     </div>
 
-    <p><strong>Please input the following information to calculate packaging weight. Please note that while this program is designed to provide the most accurate weight possible, it should be considered approximate and a physical confirmation should be made to confirm final sizing.</strong></p>
+    <p>Please input the following information to calculate packaging weight. Please note that while this program is designed to provide the most accurate weight possible, it should be considered approximate and a physical confirmation should be made to confirm final sizing.</p>
 
     <div class="dimensions">
+        <h3>Part Dimensions :</h3>
         <form>
-            <h3>Part Dimensions :</h3>
             <label for="length">Length &#40;in&#41; :</label><br>
             <input type="text" id="length" name="length"><br>
             <label for="width">Width &#40;in&#41; :</label><br>
@@ -29,8 +30,8 @@
     </div>
 
     <div class="material-main">
+        <h3>Material :</h3>
         <form>
-            <h3>Material :</h3>
             <input type="radio" id="pul2006" name="material" value="pul2006">
             <label for="pul2006">PUL2006</label>
             <input type="radio" id="pul2008" name="material" value="pul2008">
